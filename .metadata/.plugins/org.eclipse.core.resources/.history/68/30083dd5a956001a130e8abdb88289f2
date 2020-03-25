@@ -1,0 +1,12 @@
+package cn.itcast_08;
+
+import java.util.Properties;
+
+/*
+ * 
+ * 
+ * 
+ */
+public class PropertiesTest {
+	Properties prop = new Properties();
+}

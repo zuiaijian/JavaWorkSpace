@@ -1,0 +1,37 @@
+package cn.itcast_08;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.Writer;
+import java.util.Properties;
+
+public class PropertiesDemo3 {
+	public static void main(String[] args) throws IOException {
+
+//		MyRead();
+
+		MyStore();
+	}
+
+	private static void MyStore() throws IOException {
+		Properties prop=new Properties();
+		prop.setProperty("zhangsan", "27");
+		prop.setProperty("lisi", "28");
+		prop.setProperty("wangwu", "20");
+		
+		Writer w=new FileWriter("PropOut.txt");
+		prop.store(w, "Hello");
+	}
+
+	private static void MyRead() throws IOException {
+		Properties prop = new Properties();
+		Reader r = new FileReader("Prop.txt");
+		prop.load(r);
+		r.close();
+
+		System.out.println("Prop" + prop);
+	}
+
+}

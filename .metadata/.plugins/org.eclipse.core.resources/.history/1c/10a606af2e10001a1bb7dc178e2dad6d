@@ -1,0 +1,11 @@
+package itest_03;
+
+import java.util.Scanner;
+
+public class ArrayListDemo {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	
+	ArrayList<Integer> array=new ArrayList<Integer>();
+}
+}

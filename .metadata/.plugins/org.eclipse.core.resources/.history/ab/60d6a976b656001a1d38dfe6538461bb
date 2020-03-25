@@ -1,0 +1,10 @@
+package cn.itcast_09;
+/*
+ * 在jdk4出现，提供了IO流的操作效率
+ * 
+ * JDK7之后的io
+ * Path:路径
+ */
+public class NIODemo {
+
+}

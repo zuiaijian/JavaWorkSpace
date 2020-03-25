@@ -1,0 +1,33 @@
+package cn.itcast_08;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Properties;
+
+public class PropertiesDemo3 {
+	public static void main(String[] args) throws IOException {
+
+//		MyRead();
+
+		MyStore();
+	}
+
+	private static void MyStore() {
+		Properties prop=new Properties();
+		prop.setProperty("zhangsan", "27");
+		prop.setProperty("lisi", "28");
+		prop.setProperty("wangwu", "20")
+	}
+
+	private static void MyRead() throws IOException {
+		Properties prop = new Properties();
+		Reader r = new FileReader("Prop.txt");
+		prop.load(r);
+		r.close();
+
+		System.out.println("Prop" + prop);
+	}
+
+}

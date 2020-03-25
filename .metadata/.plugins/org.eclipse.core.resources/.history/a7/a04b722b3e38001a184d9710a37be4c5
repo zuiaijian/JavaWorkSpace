@@ -1,0 +1,16 @@
+package cn.itcast_03;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/*
+ * 打印流
+ * 字节打印流  PrintStream
+ * 字符打印流  PrintWriter
+ */
+public class PrintWriterDemo {
+	public static void main(String[] args) throws IOException {
+		PrintWriter pw = new PrintWriter("tt.txt");
+	}
+}

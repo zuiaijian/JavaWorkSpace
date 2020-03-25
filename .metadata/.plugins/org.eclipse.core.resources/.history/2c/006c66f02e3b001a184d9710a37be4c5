@@ -1,0 +1,13 @@
+package cn.itcast_03;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class PrintWriterDemo {
+public static void main(String[] args) throws IOException {
+	PrintWriter pr=new PrintWriter("tt.txt");
+	pr.write("Hello");
+	pr.write("World");
+}
+}

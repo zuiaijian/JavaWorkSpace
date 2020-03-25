@@ -1,0 +1,9 @@
+package cn.itcast_08;
+/*
+ * 
+ * 
+ * 
+ */
+public class PropertiesTest {
+Prterties prop=new Properties();
+}

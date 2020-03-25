@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将方法“private static int sum(int a, int b)”从“itTest_01.ArgsDemo.main()”抽取到“itTest_01.ArgsDemo”&#x0D;&#x0A;－ 原始项目：“day15_JDK5Nevs”&#x0D;&#x0A;－ 方法名称：“sum”&#x0D;&#x0A;－ 目标类型：“itTest_01.ArgsDemo”&#x0D;&#x0A;－ 已声明可视性：“private”" comments="false" description="抽取方法“sum”" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;itTest_01{ArgsDemo.java" name="sum" replace="false" selection="125 3" stamp="1574646319205" version="1.0" visibility="2"/>
+</session>

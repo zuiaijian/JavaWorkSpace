@@ -1,0 +1,25 @@
+package itest_01;
+
+import java.util.ArrayList;
+
+/*
+ * 集合嵌套遍历
+ * 
+ */
+public class ArrayListDemo {
+	public static void main(String[] args) {
+		ArrayList<ArrayList<Student>> bigArrayList = new ArrayList<ArrayList<Student>>();
+
+		ArrayList<Student> firstStudent = new ArrayList<Student>();
+		Student s1 = new Student(30, "唐僧");
+		Student s2 = new Student(30, "唐僧");
+
+		firstStudent.add(s1);
+		firstStudent.add(s2);
+		bigArrayList.add(firstStudent);
+		
+		ArrayList<Student> secondStudent = new ArrayList<Student>();
+		Student s3 = new Student(30, "唐僧");
+		Student s4 = new Student(30, "唐僧");
+	}
+}

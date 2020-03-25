@@ -1,0 +1,12 @@
+package cn.itcast_03;
+
+/*
+ * 打印流
+ * 字节打印流  PrintStream
+ * 字符打印流  PrintWriter
+ */
+public class PrintWriterDemo {
+	public static void main(String[] args) {
+		PrintWriter pw = new PrintWriter();
+	}
+}

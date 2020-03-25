@@ -1,0 +1,21 @@
+package cn_itcast_02;
+
+/*
+ * 方式1：
+ * 步骤：A:自定义MyThread继承Thread类
+ *     B:MyThread类里面写run
+ *     C:创建对象
+ *     D:启动线程
+ * 
+ * 
+ * 
+ */
+public class MyThreadDemo {
+	public static void main(String[] args) {
+		MyThread my = new MyThread();
+		my.run();
+		//调用run直接调用，相当于普通的方法调用,只是封装被线程执行的方法
+		//要想看到多线程的效果，调用Start，启动线程，再由jvm调用线程的run方法
+	}
+
+}

@@ -1,0 +1,7 @@
+package cn.itcast_03;
+
+public class PrintWriterDemo2 {
+	public static void main(String[] args) {
+PrintWriter pw =new PrintWriter("ttt.txt");
+	}
+}

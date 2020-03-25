@@ -1,0 +1,19 @@
+package cn.itcast_09;
+/*
+ * 在jdk4出现，提供了IO流的操作效率
+ * 
+ * JDK7之后的io
+ * Path:路径
+ *     与平台无关的路径
+ * Paths:
+ *     public static Path get(URL uri)根据指定的URL来确定文件路径
+ * Files操作文件的工具类
+ *     public static long copy(Path source,OutputStream out)复制文件    
+ *     
+ *     
+ */
+ 
+ 
+public class NIODemo {
+
+}

@@ -1,0 +1,13 @@
+package itest_01;
+
+import java.util.ArrayList;
+
+/*
+ * 集合嵌套遍历
+ * 
+ */
+public class ArrayListDemo {
+public static void main(String[] args) {
+	ArrayList<ArrayList<Student>> bigArrayList=new ArrayList<ArrayList<Student>>();
+}
+}

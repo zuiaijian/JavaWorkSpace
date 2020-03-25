@@ -1,0 +1,20 @@
+package cn.itcast_08;
+
+import java.io.FileReader;
+import java.io.Reader;
+import java.util.Properties;
+
+/*
+ *把文件中的数据加载到集合中
+ *遍历集合，获取每一个键值
+ *判断是否有lisi的
+ *把集合中的数据存储到文件中
+ */
+public class PropertiesTest {
+	public static void main(String[] args) {
+		
+	}
+	Properties prop = new Properties();
+	Reader r=new FileReader("User.txt");
+
+}

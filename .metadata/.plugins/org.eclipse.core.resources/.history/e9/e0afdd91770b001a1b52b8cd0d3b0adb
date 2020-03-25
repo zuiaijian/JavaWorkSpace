@@ -1,0 +1,8 @@
+package itest_01;
+
+public class testDemo {
+	public static void main(String[] args) {
+		GenericDemo<String> str=GenericDemo<String>();
+		str.show("1111");
+	}
+}

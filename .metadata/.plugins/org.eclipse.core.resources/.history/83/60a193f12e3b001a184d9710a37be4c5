@@ -1,0 +1,9 @@
+package cn.itcast_03;
+
+import java.io.IOException;
+
+public class PrintWriterDemo {
+public static void main(String[] args) throws IOException {
+	PrintStream ps=new PrintStream(new FileWriter("dos.txt"));
+}
+}

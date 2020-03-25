@@ -1,0 +1,6 @@
+package itest_01;
+
+public class testDemo {
+	GenericDemo<String> ggg=new GenericDemo<String>();
+ggg.show("hello");
+}
